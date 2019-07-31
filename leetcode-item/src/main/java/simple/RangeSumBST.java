@@ -1,6 +1,8 @@
 package simple;
 
 
+import base.TreeNode;
+
 /**
  * @author guojianfeng.
  * @date created in  2019/7/12
@@ -35,15 +37,5 @@ public class RangeSumBST {
             return rangeSumBST(root.left, L, R);
         }
         return rangeSumBST(root.left, L, R) + rangeSumBST(root.right, L, R);
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
     }
 }
