@@ -1,6 +1,6 @@
 package simple;
 
-import base.TreeNode;
+import common.TreeNode;
 
 /**
  * @author guojianfeng.

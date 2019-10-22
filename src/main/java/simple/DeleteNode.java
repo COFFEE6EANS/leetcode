@@ -6,7 +6,7 @@ package simple;
  * @desc
  */
 
-import base.ListNode;
+import common.ListNode;
 
 /**
  * Definition for singly-linked list.
